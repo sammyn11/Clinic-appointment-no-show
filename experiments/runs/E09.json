@@ -1,0 +1,29 @@
+{
+  "id": "E09",
+  "config": {
+    "C": 0.01,
+    "class_weight": "balanced",
+    "sms": true
+  },
+  "metrics": {
+    "val_roc_auc": 0.7206555573844443,
+    "test": {
+      "threshold": 0.5344428277015686,
+      "accuracy": 0.609771544899344,
+      "balanced_accuracy": 0.6749796919481572,
+      "precision_noshow": 0.31378167815886093,
+      "recall_noshow": 0.7844190732034922,
+      "f1_noshow": 0.4482538058078547,
+      "specificity": 0.5655403106928223,
+      "roc_auc": 0.7268201112882002,
+      "pr_auc": 0.35735861008163333,
+      "tp": 3504,
+      "fp": 7663,
+      "tn": 9975,
+      "fn": 963,
+      "brier": 0.2157341042791913
+    },
+    "train_roc_auc": 0.7326968874397264
+  },
+  "notes": "Same balanced logistic model as E03 with the SMS flag added. SMS is an intervention, not a patient trait, so it is not in the main feature set."
+}

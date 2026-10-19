@@ -1,0 +1,23 @@
+{
+  "train": {
+    "split": "train",
+    "rows": 75140,
+    "patients": 42304,
+    "noshow_rate": 0.2016369443705084,
+    "has_prior_rate": 0.281354804365185
+  },
+  "val": {
+    "split": "val",
+    "rows": 13269,
+    "patients": 7492,
+    "noshow_rate": 0.202954254276886,
+    "has_prior_rate": 0.2692742482477956
+  },
+  "test": {
+    "split": "test",
+    "rows": 22105,
+    "patients": 12498,
+    "noshow_rate": 0.20208097715448994,
+    "has_prior_rate": 0.27885093870165123
+  }
+}

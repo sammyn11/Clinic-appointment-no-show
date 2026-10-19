@@ -1,0 +1,31 @@
+{
+  "id": "E06",
+  "config": {
+    "learning_rate": 0.08,
+    "max_depth": 6,
+    "l2_regularization": 1.0,
+    "max_iter": 250,
+    "sample_weight": "balanced"
+  },
+  "metrics": {
+    "val_roc_auc": 0.731953127764985,
+    "test": {
+      "threshold": 0.23346103916084504,
+      "accuracy": 0.6399004750056548,
+      "balanced_accuracy": 0.6739663772123566,
+      "precision_noshow": 0.325785536159601,
+      "recall_noshow": 0.73113946720394,
+      "f1_noshow": 0.45073143803477783,
+      "specificity": 0.6167932872207733,
+      "roc_auc": 0.7354871329285202,
+      "pr_auc": 0.37262456776166,
+      "tp": 3266,
+      "fp": 6759,
+      "tn": 10879,
+      "fn": 1201,
+      "brier": 0.1432316477706324
+    },
+    "train_roc_auc": 0.779377931495656
+  },
+  "notes": "Slow learning rate, depth 6, L2 penalty 1. Early stopping watches an internal slice of the training patients' rows."
+}

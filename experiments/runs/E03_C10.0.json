@@ -1,0 +1,13 @@
+{
+  "id": "E03_C10.0",
+  "config": {
+    "C": 10.0,
+    "class_weight": "balanced",
+    "inner_train_rows": 56348,
+    "inner_val_rows": 18792
+  },
+  "metrics": {
+    "inner_roc_auc": 0.7268412738258396
+  },
+  "notes": "Inner holdout only. Not a test score. Used to pick C."
+}

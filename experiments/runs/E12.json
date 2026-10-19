@@ -1,0 +1,38 @@
+{
+  "id": "E12",
+  "config": {
+    "widths": [
+      128,
+      64,
+      32
+    ],
+    "dropout": 0.35,
+    "batch_norm": true,
+    "learning_rate": 0.001,
+    "class_weight": true,
+    "batch_size": 512,
+    "epochs_ran": 25,
+    "api": "sequential",
+    "input": "tf.data"
+  },
+  "metrics": {
+    "val_roc_auc": 0.7274054561245521,
+    "test": {
+      "threshold": 0.5651614785194398,
+      "accuracy": 0.6439267134132549,
+      "balanced_accuracy": 0.6722265519328054,
+      "precision_noshow": 0.3269269880008135,
+      "recall_noshow": 0.7197224087754646,
+      "f1_noshow": 0.4496189077686875,
+      "specificity": 0.6247306950901462,
+      "roc_auc": 0.7315927224105778,
+      "pr_auc": 0.3661597488427324,
+      "tp": 3215,
+      "fp": 6619,
+      "tn": 11019,
+      "fn": 1252,
+      "brier": 0.21945188635745247
+    }
+  },
+  "notes": "Deeper Sequential network with batch norm and heavier dropout. Same learning rate as E11, so the difference is capacity and regularisation."
+}

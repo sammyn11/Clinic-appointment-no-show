@@ -1,0 +1,28 @@
+{
+  "id": "E01",
+  "config": {
+    "C": 1.0,
+    "class_weight": null
+  },
+  "metrics": {
+    "val_roc_auc": 0.7147272190522523,
+    "test": {
+      "threshold": 0.2330693006515503,
+      "accuracy": 0.6087310563220991,
+      "balanced_accuracy": 0.666387204875161,
+      "precision_noshow": 0.3099090909090909,
+      "recall_noshow": 0.7631520035818222,
+      "f1_noshow": 0.44080946531324755,
+      "specificity": 0.5696224061684998,
+      "roc_auc": 0.7164976289948085,
+      "pr_auc": 0.33711313532309,
+      "tp": 3409,
+      "fp": 7591,
+      "tn": 10047,
+      "fn": 1058,
+      "brier": 0.14637335974866278
+    },
+    "train_roc_auc": 0.7263042660498582
+  },
+  "notes": "Unweighted logistic regression on booking-time fields, no personal history. Linear baseline."
+}

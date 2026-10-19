@@ -1,0 +1,28 @@
+{
+  "id": "E02",
+  "config": {
+    "C": 1.0,
+    "class_weight": null
+  },
+  "metrics": {
+    "val_roc_auc": 0.7186812177084871,
+    "test": {
+      "threshold": 0.19136385917663584,
+      "accuracy": 0.5535399230943225,
+      "balanced_accuracy": 0.6724246380958059,
+      "precision_noshow": 0.29525469981807156,
+      "recall_noshow": 0.871949854488471,
+      "f1_noshow": 0.4411348320969477,
+      "specificity": 0.4728994217031409,
+      "roc_auc": 0.7244363124238266,
+      "pr_auc": 0.3529032919380089,
+      "tp": 3895,
+      "fp": 9297,
+      "tn": 8341,
+      "fn": 572,
+      "brier": 0.1447570557637315
+    },
+    "train_roc_auc": 0.7301461271903984
+  },
+  "notes": "Same model as E01 after adding booking-time history. The comparison isolates the history features."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "E14",
+  "config": {
+    "widths": [
+      128,
+      64,
+      32
+    ],
+    "dropout": 0.35,
+    "batch_norm": true,
+    "learning_rate": 0.001,
+    "class_weight": false,
+    "batch_size": 512,
+    "epochs_ran": 23,
+    "api": "sequential",
+    "input": "tf.data"
+  },
+  "metrics": {
+    "val_roc_auc": 0.7254861528150812,
+    "test": {
+      "threshold": 0.2437378317117691,
+      "accuracy": 0.6136620674055644,
+      "balanced_accuracy": 0.6749936723357106,
+      "precision_noshow": 0.3152499319604463,
+      "recall_noshow": 0.7779270203716141,
+      "f1_noshow": 0.4486765655261459,
+      "specificity": 0.5720603242998072,
+      "roc_auc": 0.7296949625395419,
+      "pr_auc": 0.36407207042286804,
+      "tp": 3475,
+      "fp": 7548,
+      "tn": 10090,
+      "fn": 992,
+      "brier": 0.1443329655018574
+    }
+  },
+  "notes": "Same network as E12 with no class weights. The loss then mostly describes the majority class."
+}

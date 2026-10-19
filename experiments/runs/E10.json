@@ -1,0 +1,25 @@
+{
+  "id": "E10",
+  "config": {
+    "patients_overlap": 9714
+  },
+  "metrics": {
+    "test": {
+      "threshold": 0.5071663647890091,
+      "accuracy": 0.5810975885626386,
+      "balanced_accuracy": 0.6747021202365389,
+      "precision_noshow": 0.30370734102627056,
+      "recall_noshow": 0.8316898251904975,
+      "f1_noshow": 0.4449373538756669,
+      "specificity": 0.5177144152825803,
+      "roc_auc": 0.7269566058409174,
+      "pr_auc": 0.3487055551376144,
+      "tp": 3711,
+      "fp": 8508,
+      "tn": 9133,
+      "fn": 751,
+      "brier": 0.21410002173743164
+    }
+  },
+  "notes": "Same features and model class as E03, but appointments are split at random. 9714 patients appear in both the training and test portions. This is the optimistic number a row split produces."
+}

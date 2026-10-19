@@ -1,0 +1,31 @@
+{
+  "id": "E07",
+  "config": {
+    "learning_rate": 0.2,
+    "max_depth": 3,
+    "l2_regularization": 0.1,
+    "max_iter": 250,
+    "sample_weight": "balanced"
+  },
+  "metrics": {
+    "val_roc_auc": 0.728968418710918,
+    "test": {
+      "threshold": 0.2510678105692087,
+      "accuracy": 0.6637412350147025,
+      "balanced_accuracy": 0.6714366441708715,
+      "precision_noshow": 0.3366740088105727,
+      "recall_noshow": 0.6843519140362659,
+      "f1_noshow": 0.451317634900716,
+      "specificity": 0.6585213743054769,
+      "roc_auc": 0.7349465431356323,
+      "pr_auc": 0.3697685468204247,
+      "tp": 3057,
+      "fp": 6023,
+      "tn": 11615,
+      "fn": 1410,
+      "brier": 0.14341062015371706
+    },
+    "train_roc_auc": 0.7541782391696018
+  },
+  "notes": "Faster learning rate and shallower trees. This is the bias end of the same algorithm, against E06."
+}

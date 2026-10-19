@@ -1,0 +1,37 @@
+{
+  "id": "E11",
+  "config": {
+    "widths": [
+      64,
+      32
+    ],
+    "dropout": 0.2,
+    "batch_norm": false,
+    "learning_rate": 0.001,
+    "class_weight": true,
+    "batch_size": 512,
+    "epochs_ran": 23,
+    "api": "sequential",
+    "input": "tf.data"
+  },
+  "metrics": {
+    "val_roc_auc": 0.7282027373315589,
+    "test": {
+      "threshold": 0.5665742588043213,
+      "accuracy": 0.6505315539470709,
+      "balanced_accuracy": 0.6689263618274573,
+      "precision_noshow": 0.32870662460567823,
+      "recall_noshow": 0.699798522498321,
+      "f1_noshow": 0.4473062889031981,
+      "specificity": 0.6380542011565937,
+      "roc_auc": 0.731265639725654,
+      "pr_auc": 0.3679216720437815,
+      "tp": 3126,
+      "fp": 6384,
+      "tn": 11254,
+      "fn": 1341,
+      "brier": 0.21750597496319113
+    }
+  },
+  "notes": "Small Sequential network, dropout 0.2, class weights, Adam at 1e-3."
+}

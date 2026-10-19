@@ -1,0 +1,17 @@
+{
+  "rows_raw": 110527,
+  "dropped_age": 8,
+  "dropped_negative_lead": 5,
+  "dropped_gender": 0,
+  "dropped_duplicate_appointment": 0,
+  "rows_after_row_filters": 110514,
+  "rows_removed": 13,
+  "patients": 62294,
+  "noshow_rate": 0.20188392420869755,
+  "noshow_count": 22311,
+  "same_day_rate": 0.34891506958394414,
+  "date_min": "2016-04-29",
+  "date_max": "2016-06-08",
+  "neighbourhoods": 81,
+  "rows_raw_expected": 110527
+}

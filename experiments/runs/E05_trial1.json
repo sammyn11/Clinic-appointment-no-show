@@ -1,0 +1,15 @@
+{
+  "id": "E05_trial1",
+  "config": {
+    "max_depth": 8,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "n_estimators": 120,
+    "inner_train_rows": 56348,
+    "inner_val_rows": 18792
+  },
+  "metrics": {
+    "inner_roc_auc": 0.7301035316897947
+  },
+  "notes": "Inner patient holdout used to choose depth, leaf size, and feature subsample."
+}

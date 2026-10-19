@@ -1,0 +1,20 @@
+2026-10-19 11:46:17,549 INFO    MainThread:20374 [wandb_init.py:setup_run_log_directory():740] Logging user logs to /workspace/experiments/wandb/wandb/offline-run-20261019_114617-fz947ugx/logs/debug.log
+2026-10-19 11:46:17,549 INFO    MainThread:20374 [wandb_init.py:setup_run_log_directory():741] Logging internal logs to /workspace/experiments/wandb/wandb/offline-run-20261019_114617-fz947ugx/logs/debug-internal.log
+2026-10-19 11:46:17,549 INFO    MainThread:20374 [wandb_init.py:init():784] calling init triggers
+2026-10-19 11:46:17,549 INFO    MainThread:20374 [wandb_init.py:init():789] wandb.init called with sweep_config: {}
+config: {'n_estimators': 200, 'max_depth': 12, 'min_samples_leaf': 5, 'max_features': 'sqrt', 'class_weight': 'balanced_subsample', '_wandb': {}}
+2026-10-19 11:46:17,549 INFO    MainThread:20374 [wandb_init.py:init():832] starting backend
+2026-10-19 11:46:17,549 INFO    MainThread:20374 [wandb_init.py:init():847] sending inform_init request
+2026-10-19 11:46:17,551 INFO    MainThread:20374 [wandb_init.py:init():852] backend started and connected
+2026-10-19 11:46:17,551 INFO    MainThread:20374 [wandb_init.py:init():922] updated telemetry
+2026-10-19 11:46:17,555 INFO    MainThread:20374 [wandb_init.py:init():940] communicating run to backend with 90.0 second timeout
+2026-10-19 11:46:17,557 INFO    MainThread:20374 [wandb_init.py:init():977] starting run threads in backend
+2026-10-19 11:46:17,615 INFO    MainThread:20374 [wandb_run.py:_console_start():2528] atexit reg
+2026-10-19 11:46:17,616 INFO    MainThread:20374 [wandb_run.py:_redirect():2378] redirect: wrap_raw
+2026-10-19 11:46:17,616 INFO    MainThread:20374 [wandb_run.py:_redirect():2447] Wrapping output streams.
+2026-10-19 11:46:17,616 INFO    MainThread:20374 [wandb_run.py:_redirect():2470] Redirects installed.
+2026-10-19 11:46:17,616 INFO    MainThread:20374 [wandb_init.py:init():1015] run started, returning control to user process
+2026-10-19 11:46:17,617 INFO    MainThread:20374 [wandb_run.py:_finish():2300] finishing run appointment-noshow/fz947ugx
+2026-10-19 11:46:17,617 INFO    MainThread:20374 [wandb_run.py:_atexit_cleanup():2495] got exitcode: 0
+2026-10-19 11:46:17,617 INFO    MainThread:20374 [wandb_run.py:_restore():2477] restore
+2026-10-19 11:46:17,617 INFO    MainThread:20374 [wandb_run.py:_restore():2483] restore done

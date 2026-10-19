@@ -1,0 +1,31 @@
+{
+  "id": "E04",
+  "config": {
+    "n_estimators": 200,
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "class_weight": "balanced_subsample"
+  },
+  "metrics": {
+    "val_roc_auc": 0.7326991470293633,
+    "test": {
+      "threshold": 0.5164661210013658,
+      "accuracy": 0.6311241800497625,
+      "balanced_accuracy": 0.674401355743482,
+      "precision_noshow": 0.3220731589614902,
+      "recall_noshow": 0.7470338034475039,
+      "f1_noshow": 0.4500944159697869,
+      "specificity": 0.6017689080394603,
+      "roc_auc": 0.7333793626329257,
+      "pr_auc": 0.3655158652240029,
+      "tp": 3337,
+      "fp": 7024,
+      "tn": 10614,
+      "fn": 1130,
+      "brier": 0.20183052769510965
+    },
+    "train_roc_auc": 0.8177540621188336
+  },
+  "notes": "Preset forest. Depth is capped so a few noisy patients do not grow pure leaves."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "E13",
+  "config": {
+    "widths": [
+      128,
+      64,
+      32
+    ],
+    "dropout": 0.35,
+    "batch_norm": true,
+    "learning_rate": 0.01,
+    "class_weight": true,
+    "batch_size": 512,
+    "epochs_ran": 22,
+    "api": "sequential",
+    "input": "tf.data"
+  },
+  "metrics": {
+    "val_roc_auc": 0.7294840225653666,
+    "test": {
+      "threshold": 0.5553728103637696,
+      "accuracy": 0.6432028952725628,
+      "balanced_accuracy": 0.6714386495283234,
+      "precision_noshow": 0.32625482625482627,
+      "recall_noshow": 0.7188269532124468,
+      "f1_noshow": 0.4488084422391502,
+      "specificity": 0.6240503458442,
+      "roc_auc": 0.7314574623196508,
+      "pr_auc": 0.370047289372579,
+      "tp": 3211,
+      "fp": 6631,
+      "tn": 11007,
+      "fn": 1256,
+      "brier": 0.2157674387841408
+    }
+  },
+  "notes": "Same network as E12 with the learning rate raised to 1e-2. Checks whether Adam stays stable."
+}

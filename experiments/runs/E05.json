@@ -1,0 +1,32 @@
+{
+  "id": "E05",
+  "config": {
+    "n_estimators": 260,
+    "max_depth": 16,
+    "min_samples_leaf": 10,
+    "max_features": "sqrt",
+    "inner_roc_auc": 0.7333512697425811,
+    "class_weight": "balanced_subsample"
+  },
+  "metrics": {
+    "val_roc_auc": 0.7347953391518214,
+    "test": {
+      "threshold": 0.5066456197650457,
+      "accuracy": 0.6495815426374123,
+      "balanced_accuracy": 0.6729281795443742,
+      "precision_noshow": 0.32994502644953844,
+      "recall_noshow": 0.7121110364898142,
+      "f1_noshow": 0.45094981570740006,
+      "specificity": 0.6337453225989341,
+      "roc_auc": 0.7361052653249098,
+      "pr_auc": 0.368529156970119,
+      "tp": 3181,
+      "fp": 6460,
+      "tn": 11178,
+      "fn": 1286,
+      "brier": 0.19409821333775115
+    },
+    "train_roc_auc": 0.855083368038634
+  },
+  "notes": "Forest refit with the inner-holdout winner (inner ROC-AUC 0.733) and more trees."
+}

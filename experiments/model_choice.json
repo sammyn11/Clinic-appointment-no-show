@@ -1,0 +1,69 @@
+{
+  "best_traditional": "E05",
+  "best_deep": "E11",
+  "selection_rule": "highest validation ROC-AUC within paradigm; test labels were not used to choose; if E11 is within 0.002 validation AUC of the best network, keep E11",
+  "traditional_val_ranking": [
+    {
+      "experiment_id": "E05",
+      "val_roc_auc": 0.7347953391518214,
+      "roc_auc": 0.7361052653249098
+    },
+    {
+      "experiment_id": "E04",
+      "val_roc_auc": 0.7326991470293633,
+      "roc_auc": 0.7333793626329257
+    },
+    {
+      "experiment_id": "E06",
+      "val_roc_auc": 0.731953127764985,
+      "roc_auc": 0.7354871329285202
+    },
+    {
+      "experiment_id": "E07",
+      "val_roc_auc": 0.728968418710918,
+      "roc_auc": 0.7349465431356323
+    },
+    {
+      "experiment_id": "E03",
+      "val_roc_auc": 0.7189561713199403,
+      "roc_auc": 0.724459995949178
+    },
+    {
+      "experiment_id": "E08",
+      "val_roc_auc": 0.7187970486322752,
+      "roc_auc": 0.7242711686992234
+    },
+    {
+      "experiment_id": "E02",
+      "val_roc_auc": 0.7186812177084871,
+      "roc_auc": 0.7244363124238266
+    }
+  ],
+  "deep_val_ranking": [
+    {
+      "experiment_id": "E13",
+      "val_roc_auc": 0.7294840225653666,
+      "roc_auc": 0.7314574623196508
+    },
+    {
+      "experiment_id": "E11",
+      "val_roc_auc": 0.7282027373315589,
+      "roc_auc": 0.731265639725654
+    },
+    {
+      "experiment_id": "E12",
+      "val_roc_auc": 0.7274054561245521,
+      "roc_auc": 0.7315927224105778
+    },
+    {
+      "experiment_id": "E15",
+      "val_roc_auc": 0.7270950229288349,
+      "roc_auc": 0.7328096253502363
+    },
+    {
+      "experiment_id": "E14",
+      "val_roc_auc": 0.7254861528150812,
+      "roc_auc": 0.7296949625395419
+    }
+  ]
+}

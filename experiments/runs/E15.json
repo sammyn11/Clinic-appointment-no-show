@@ -1,0 +1,32 @@
+{
+  "id": "E15",
+  "config": {
+    "embedding_dim": 8,
+    "learning_rate": 0.001,
+    "class_weight": true,
+    "epochs_ran": 18,
+    "api": "functional",
+    "input": "tf.data",
+    "n_neighbourhoods": 81
+  },
+  "metrics": {
+    "val_roc_auc": 0.7270950229288349,
+    "test": {
+      "threshold": 0.5004073572158814,
+      "accuracy": 0.5773806831033703,
+      "balanced_accuracy": 0.679590656029337,
+      "precision_noshow": 0.3046718487058258,
+      "recall_noshow": 0.8511305126483099,
+      "f1_noshow": 0.4487194618198985,
+      "specificity": 0.508050799410364,
+      "roc_auc": 0.7328096253502363,
+      "pr_auc": 0.36636792795175266,
+      "tp": 3802,
+      "fp": 8677,
+      "tn": 8961,
+      "fn": 665,
+      "brier": 0.2143533000594127
+    }
+  },
+  "notes": "Functional API. Neighbourhood is an embedding of size 8 instead of a smoothed target rate, so the net has to learn which districts matter."
+}

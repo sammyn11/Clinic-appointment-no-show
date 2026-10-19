@@ -1,0 +1,29 @@
+{
+  "id": "E08",
+  "config": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "dual": false
+  },
+  "metrics": {
+    "val_roc_auc": 0.7187970486322752,
+    "test": {
+      "threshold": -0.005969223423413626,
+      "accuracy": 0.5551232752770866,
+      "balanced_accuracy": 0.6737511503199953,
+      "precision_noshow": 0.29616407140144324,
+      "recall_noshow": 0.8728453100514887,
+      "f1_noshow": 0.4422640653357532,
+      "specificity": 0.4746569905885021,
+      "roc_auc": 0.7242711686992234,
+      "pr_auc": 0.35179988599707795,
+      "tp": 3899,
+      "fp": 9266,
+      "tn": 8372,
+      "fn": 568,
+      "brier": NaN
+    },
+    "train_roc_auc": 0.7297946321510009
+  },
+  "notes": "Linear SVM with a balanced class weight. Scores are margins, not probabilities, so the default alert rule is the sign of the margin (threshold 0) and the F1 threshold is chosen on validation margins."
+}

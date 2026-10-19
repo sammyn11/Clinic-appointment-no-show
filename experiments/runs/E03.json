@@ -1,0 +1,29 @@
+{
+  "id": "E03",
+  "config": {
+    "C": 0.01,
+    "class_weight": "balanced",
+    "inner_roc_auc": 0.7269234124677657
+  },
+  "metrics": {
+    "val_roc_auc": 0.7189561713199403,
+    "test": {
+      "threshold": 0.4837110579013826,
+      "accuracy": 0.5537208776294956,
+      "balanced_accuracy": 0.6735410383583504,
+      "precision_noshow": 0.2957160157432637,
+      "recall_noshow": 0.874636221177524,
+      "f1_noshow": 0.4419933254143334,
+      "specificity": 0.4724458555391768,
+      "roc_auc": 0.724459995949178,
+      "pr_auc": 0.35195499334571595,
+      "tp": 3907,
+      "fp": 9305,
+      "tn": 8333,
+      "fn": 560,
+      "brier": 0.2162255241079431
+    },
+    "train_roc_auc": 0.729845615581082
+  },
+  "notes": "Class-weighted logistic regression. C=0.01 won the inner holdout (inner ROC-AUC 0.727). Refit on all training patients."
+}
